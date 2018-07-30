@@ -1,0 +1,176 @@
+/* div.content setting below came from https://stackoverflow.com/questions/5133847/how-to-limit-width-of-html-site */
+/* .content { width: 1000px;} */
+/* This is the stylesheet for the individual class project */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-align:center;
+}
+/* Following is a class for centered text */
+.centered-text {
+    text-align:center;
+    border:0;
+    margin:0;
+    padding:0;
+}
+.menu-group{
+    width:100vw;
+    height:6vh;
+    background-size:cover;
+    display:flex;
+    flex-direction:row;
+}
+
+.top-section{
+  width: 100vw /* 98% */;
+  height: 100vh /* 750px */;
+  background-image: url("../images/lifeguardbuilding.jpg");
+  background-repeat: no-repeat;
+  background-color: cyan;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 0;
+  margin-right: 0;
+  background-position:right bottom;
+}
+
+.bottom-section{
+    height: 170px;
+    display: flex;
+    border: 2px solid black;
+/*    border: thin black solid; */
+    margin: 0;
+    padding: 7px;
+    padding-top: 10px;
+}
+.bottom-section-1 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 2px solid rgb(74,189,172);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(74,189,172,0.25);
+}
+.bottom-section-2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 2px solid rgb(247,183,51);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(247,183,51,0.25);
+}
+.bottom-section-3 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 2px solid rgba(252,74,26,0.75);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(252,74,26,0.25);
+}
+.bottom-section-4 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 2px solid rgb(247,183,51);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(247,183,51,0.25);
+}
+.bottom-section-5 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 2px solid rgb(74,189,172);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgba(74,189,172,0.25);
+}
+
+/********************************************************************
+Code from w3schools: Horizontal Navigation Bar Examples
+https://www.w3schools.com/Css/css_navbar.asp
+********************************************************************/
+ul.unorderedlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.unorderedlistitem {
+    float: left;
+}
+
+li a.lia {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background-color: #111;
+}
+li a:focus {
+    background-color: #111;
+}
+
+li a:active {
+    background-color:#CFFFFF;
+    color: #000000;
+}
+
+lia:active {
+    background-color:#0000FF;
+    color: #000000;
+}
+
+.imgsection {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    outline: 2px solid gray;
+}
+
+.figcaption {
+    outline: 1px dotted black;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.imgheightwidth {
+    width: 450px;
+    height: auto;
+    text-align: center;
+    display: block;
+    padding-left: 10px;
+}
+
+.imgbackgroundcolor1 {
+    background-color: rgba(74,189,172,0.25);
+}
+
+.imgbackgroundcolor2 {
+    background-color: rgba(247,183,51,0.25);
+}
+
+.imgbackgroundcolor3 {
+    background-color: rgba(252,74,26,0.25);
+}
+
+.stickynav{
+    top: 0;
+    position: fixed;
+    position: sticky;
+}
